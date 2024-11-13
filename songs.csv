@@ -1,0 +1,101 @@
+track_id,artist,title,release,genre,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo
+TRBAAYQ128F42BC791,DJ Jazzy Jeff & The Fresh Prince,I Think I Can Beat Mike Tyson,The Very Best Of D.J. Jazzy Jeff & The Fresh Prince,hip-hop,0.828,0.966,7,-4.698,1,0.233,0.11,0.0,0.298,0.736,107.86
+TRBABRK128E078FC14,Buddy Miller / Julie Miller / Lee Ann Womack,Don't Tell Me,Some Things I Know,country,0.276,0.423,11,-9.242,1,0.0312,0.222,5.21e-05,0.104,0.127,145.497
+TRBAFSC128F1486072,The Gothic Archies,This Abyss,The Tragic Treasury,rock,0.341,0.498,7,-6.58,1,0.0284,0.171,0.00026,0.0948,0.523,183.982
+TRBAFVE128F424EE0D,Crooked Fingers,Crowned In Chrome,Crooked Fingers Live at Maxwell's 10/19/2004,indie,0.427,0.291,4,-17.354,1,0.0365,0.94,0.00853,0.316,0.251,110.354
+TRBAJAV128F42A097E,Los Lonely Boys,Forgiven,Forgiven,rock,0.542,0.718,3,-6.696,1,0.0355,0.5,6.86e-05,0.0999,0.629,82.037
+TRBAKJR128F92F625C,Karine Polwart,Maybe There's A Road,Scribbled In Chalk,folk,0.582,0.59,6,-6.578,1,0.0265,0.53,0.000104,0.114,0.312,140.077
+TRBANFR128F92D4A68,Fireflight,Stand Up,Unbreakable,rock,0.486,0.859,1,-5.208,0,0.0538,0.00621,0.0,0.0737,0.59,156.021
+TRBAOXZ128F932F365,Radioactive Man,Major,Radioactive Man,electronic,0.77,0.601,1,-12.999,1,0.109,0.742,0.803,0.131,0.451,135.004
+TRBATUS128F9303CA0,Pet Shop Boys,Did you see me coming?,Yes,pop,0.598,0.973,3,-3.553,1,0.0358,5.46e-05,0.719,0.152,0.915,128.074
+TRBATYL128F4284BA2,My Ruin,Beauty Fiend,A Prayer Under Pressure Of Violent Anguish,metal,0.383,0.897,7,-4.24,1,0.0589,6.56e-06,0.372,0.146,0.498,77.219
+TRBAVTC128F92F9E89,David Holmes,Holy Pictures,Holy Pictures,electronic,0.408,0.96,0,-6.631,1,0.0672,9.17e-05,0.662,0.27,0.281,132.044
+TRBBATP128F4289C12,Vince Gill,Everybody's Sweetheart,The Essential Vince Gill,country,0.647,0.736,4,-10.392,1,0.0392,0.0575,0.0,0.105,0.852,137.213
+TRBBEHD128F4218163,Glenn Medeiros,The Wings of My Heart,Glenn Medeiros,pop,0.216,0.222,3,-15.275,1,0.0322,0.778,0.0,0.104,0.0913,63.026
+TRBBHVC128F425072A,Stereolab,Fractal Dream Of A Thing,Chemical Chords,electronic,0.669,0.706,9,-7.372,0,0.0368,0.169,0.715,0.255,0.482,99.211
+TRBBJOA12903CE3557,Jennings,The Chase,Femtastic,singer-songwriter,0.414,0.748,7,-3.151,1,0.031,0.00432,0.0,0.0687,0.385,145.964
+TRBBJZB12903C9D6DA,Tote King,Duermen,Duermen...,hip-hop,0.551,0.767,10,-5.601,0,0.391,0.0117,0.0,0.185,0.561,92.072
+TRBBLFA128EF35F697,The Wolfgang Press,Honey Tree,Queer,rock,0.771,0.617,7,-12.162,1,0.0341,0.0186,0.337,0.165,0.705,111.731
+TRBBLQA128F4292EB7,Will Young,Fineline,From Now On,singer-songwriter,0.224,0.221,7,-12.368,0,0.0326,0.839,0.00494,0.116,0.1,82.961
+TRBBNOY128F92D2360,Leggo Beast,Step Up,From Here To G,electronic,0.639,0.651,5,-8.785,0,0.0335,0.226,0.0364,0.0958,0.47,76.687
+TRBBNXS128F4272A12,Brotherhood Of Man,Ernie,Sing the 70's,pop,0.714,0.86,0,-8.145,1,0.128,0.646,0.00119,0.0549,0.913,130.174
+TRBBQRV128F92C3235,Will Young,Changes,Changes,pop,0.455,0.794,8,-3.316,0,0.0422,0.0335,8.16e-05,0.116,0.691,169.925
+TRBBTBP128F146CA5C,LCD Soundsystem,Yr City's A Sucker,Introns,electronic,0.764,0.801,10,-7.258,1,0.0377,0.156,4.46e-05,0.342,0.809,103.918
+TRBCAUH128F425A326,Will Young,Love Is A Matter Of Distance,Fridays Child,pop,0.543,0.56,8,-6.982,1,0.024,0.51,0.0,0.0954,0.304,99.941
+TRBCDAF128F934B021,galactic cowboys,Hey Mr.,Let It Go,rock,0.391,0.78,8,-6.87,1,0.0321,3.02e-05,6.94e-05,0.0984,0.199,172.247
+TRBCDQG128E0782588,Mano Negra,Mad House,Puta's Fever,alternative,0.542,0.636,6,-11.046,1,0.0428,0.00447,0.00985,0.296,0.518,147.073
+TRBCGAK128F424E54D,Norma Waterson,The Chaps Of Cockaigny,Bright Shiny Morning,folk,0.391,0.127,7,-10.913,0,0.0359,0.911,7.08e-06,0.0991,0.269,175.932
+TRBCHTM128F428436E,Carlos Santana & Mahavishnu John McLaughlin,Meditation,Love_ Devotion_ Surrender,jazz,0.399,0.128,4,-23.616,0,0.0495,0.937,0.93,0.106,0.161,102.031
+TRBCIJB128F428E529,Art Of Noise,Pause,The Seduction Of Claude Debussy,electronic,0.172,0.257,9,-15.273,1,0.0388,0.983,0.147,0.282,0.0382,94.792
+TRBCIUH128F9319B12,Pure Prairie League,Leave My Heart Alone,Bustin Out,country,0.444,0.591,9,-12.315,1,0.051,0.356,0.00308,0.0667,0.623,114.39
+TRBCLQY128F4250730,Number One Gun,The Different Ones,The North Pole Project,alternative,0.528,0.239,4,-11.13,0,0.0334,0.311,0.0,0.107,0.429,120.836
+TRBCMRL128E078CEB9,Charles Mingus,Prayer For Passive Resistance (Live Version),Mingus At Antibes,jazz,0.495,0.395,5,-14.381,0,0.148,0.144,0.195,0.682,0.51,121.129
+TRBCMRT128F92E8789,Leatherface,Fat_ Earthy_ Flirt,Minx,rock,0.37,0.887,0,-13.568,1,0.0479,5.24e-06,0.0225,0.259,0.658,133.191
+TRBCNTK128F933C650,Krum Bums,Cut Into Me,Cut Into Me,punk,0.247,0.939,11,-8.911,0,0.0574,6.76e-06,0.45,0.097,0.567,143.812
+TRBCPNZ128F932B042,Arthur H,City Of Light,Négresse Blanche,indie,0.624,0.745,6,-13.61,1,0.0572,0.549,0.302,0.131,0.931,141.973
+TRBCSLL12903CDC48A,Leama & Moor,Complex Synth Problems,Angle Series 1,dance,0.781,0.795,9,-14.178,1,0.103,0.000205,0.894,0.0532,0.524,129.021
+TRBCTYB128F1464236,Ronnie Foster,Back Stabbers,Sweet Revival,soul,0.662,0.583,0,-6.712,0,0.0357,0.482,0.329,0.0937,0.907,120.609
+TRBCTZL128F9312B1C,CPM22,Regina Let's Go!,CPM22,rock,0.414,0.969,2,-2.45,1,0.0546,0.00428,0.0,0.12,0.641,143.67
+TRBCURZ128F423EF54,Stereolab,Pinball,Oscillons From The Anti-Sun,alternative,0.659,0.817,9,-7.207,1,0.0318,0.00719,0.108,0.1,0.783,146.318
+TRBCYUK128F429B7A2,Westbam,Activist Black Pump,We´ll Never Stop Living This Way,electronic,0.897,0.771,7,-16.016,1,0.2,0.00363,0.948,0.0611,0.0319,130.04
+TRBCZYE128F42644D0,Chris Botti,What'll I Do?,When I Fall In Love,jazz,0.19,0.0955,0,-18.709,0,0.0315,0.947,0.192,0.1,0.0646,77.325
+TRBDCJB128F9350B87,Turin Brakes,Moonlight Mile,Bottled At Source - The Best Of The Source Years,alternative,0.589,0.142,7,-18.58,1,0.0325,0.781,0.000402,0.148,0.341,83.891
+TRBDCVK128F4234243,Strike Anywhere,Gunpowder,Dead FM,punk,0.258,0.988,9,-3.953,0,0.0968,0.0011,0.000571,0.323,0.64,176.288
+TRBDFME128F9337D3E,Solvent,Spin Cycle,Idol Tryouts Two: Ghostly International Vol. 2,electronic,0.675,0.838,11,-5.853,0,0.034,0.0052,0.0173,0.452,0.747,126.002
+TRBDIWI128F42677CB,Toto,Angela,Toto,rock,0.371,0.513,0,-9.524,0,0.0309,0.0329,0.00104,0.127,0.328,120.276
+TRBDIYR128E0786400,LCD Soundsystem,Great Release,LCD Soundsystem,electronic,0.602,0.85,7,-10.843,1,0.054,0.167,0.952,0.0985,0.0885,131.991
+TRBDJNP128F932D70B,Manian,Ravers Fantasy,Zoopreme Volume 01,dance,0.55,0.999,10,-5.598,1,0.0774,0.0135,0.276,0.253,0.392,145.7
+TRBDKBU128F9324ACB,Alcazar,Inhibitions,Inhibitions,pop,0.726,0.927,0,-5.537,1,0.0474,0.00642,0.000837,0.0547,0.946,131.984
+TRBDKMV128F42A703F,Bryan Adams,Flying,Room Service,rock,0.512,0.405,11,-8.945,1,0.0276,0.169,0.0,0.107,0.336,126.888
+TRBDLEX128F42883AD,Angelas Dish,Engine Stalled,War on Time,pop,0.261,0.744,6,-5.838,0,0.0546,9.71e-05,0.0,0.114,0.634,165.757
+TRBDNZN12903CEE39B,Nest,Cad Coddeu (Revised),Retold,ambient,0.0639,0.203,10,-21.057,0,0.0377,0.948,0.906,0.0696,0.0395,68.84
+TRBDRVL128F429C4D9,Rabbit In The Moon,Dubassex (Wish You Were Here),Decade,electronic,0.646,0.859,2,-6.096,1,0.0626,0.000467,0.000972,0.309,0.28,109.705
+TRBDTMD128F145A5F5,The Beautiful South,Don't Marry Her,Blue Is The Colour,pop,0.634,0.571,0,-8.259,1,0.0299,0.421,0.0,0.187,0.527,99.803
+TRBDUOU128F4265618,Loggins & Messina,When I Was A Child,Native Sons,singer-songwriter,0.3,0.346,9,-11.55,1,0.0307,0.378,0.0,0.118,0.334,150.963
+TRBDVBR128F92EC9DF,Billy Ocean,Time To Move On,Time To Move On,pop,0.742,0.781,0,-7.502,1,0.0437,0.15,2.31e-06,0.0611,0.768,103.885
+TRBDVCC128F4221CF3,Mos Generator,Wizards of the Prophecy Pen,Songs for Future Gods,rock,0.378,0.844,7,-6.92,0,0.0642,0.00636,0.00658,0.338,0.762,163.584
+TRBDVNN128F1474B6D,Ronan Keating,Just When I'd Given Up Dreaming,Bring You Home,pop,0.583,0.361,7,-10.839,1,0.0326,0.628,2.13e-06,0.0795,0.276,124.005
+TRBDXRU128F428244B,Los Lonely Boys,Onda,Live at The Fillmore,rock,0.367,0.954,8,-6.017,1,0.226,0.00517,0.462,0.746,0.341,121.716
+TRBDYAD128F424DB27,The Dreamside,Nocturnal,Spin Moon Magic,alternative,0.463,0.519,4,-10.569,0,0.0469,0.0814,0.000616,0.0615,0.107,76.482
+TRBDZAP128F9314CF1,Railroad Earth,Drag Him Down,Bird In A House,country,0.506,0.972,0,-4.373,1,0.0593,0.247,0.00228,0.28,0.748,137.557
+TRBDZSX128F4261B24,Amp Fiddler,Freakin',Dreamin',soul,0.763,0.421,11,-10.299,0,0.156,0.255,1.43e-05,0.17,0.804,90.932
+TRBDZYL128F92F822A,Joensuu 1685,Sick City,Joensuu 1685,indie,0.169,0.495,11,-6.163,1,0.0451,0.00798,0.78,0.385,0.202,126.135
+TRBEABA128F1497E13,Spokane,Able Bodies,Measurement,indie,0.261,0.139,7,-16.82,1,0.0369,0.751,0.525,0.118,0.159,101.522
+TRBEASU128F42AA4E3,Mae,Home,Singularity,alternative,0.524,0.867,1,-4.176,1,0.0363,0.012,0.0,0.101,0.493,126.015
+TRBEAZP12903CEB480,Grown Ups,Are You Shitten Me?,More Songs,indie,0.317,0.806,3,-7.113,1,0.0641,0.00066,0.000401,0.0923,0.19,88.643
+TRBEBXK12903CD8A72,Les McCann,Vacushna,The Truth (the Whole Truth & Nothing But the Truth),jazz,0.543,0.341,1,-12.901,1,0.0325,0.583,1.25e-06,0.247,0.55,174.988
+TRBEBZK128F42B3EF8,Ours,In A Minute,Precious,rock,0.5,0.864,11,-5.201,0,0.0439,0.00382,0.199,0.15,0.565,156.145
+TRBECGH12903CD9429,F.R. David,Dream Away,Long Distance Flight,pop,0.678,0.625,0,-13.755,0,0.0289,0.0715,0.000892,0.0824,0.835,119.821
+TRBEDHJ128F429012B,Odd Nosdam,Fat Hooks,Level Live Wires,electronic,0.112,0.892,8,-6.878,1,0.11,0.543,0.957,0.0534,0.0856,81.893
+TRBEFAN12903CCE381,Fine Young Cannibals,Don't Ask Me To Choose,Fine Young Cannibals,pop,0.685,0.867,1,-10.529,0,0.0421,0.00832,5.88e-05,0.0771,0.76,125.017
+TRBEFXZ128F92DF480,Dave Pike,Aphrodite,Present Latin Verve Sounds,jazz,0.49,0.459,2,-14.012,0,0.0441,0.972,0.819,0.102,0.626,117.117
+TRBEIIA128F14717AF,The Lilac Time,Rockland,The Lilac Time,pop,0.55,0.55,11,-13.176,0,0.0501,0.118,0.00115,0.172,0.771,157.362
+TRBEJTE128F146A907,Bryan Savage,Coral Princess (3rd Force Remix),Rush Hour,jazz,0.713,0.711,1,-8.678,1,0.0283,0.307,0.88,0.14,0.752,105.992
+TRBELFT128F427932D,Nena,Keine Antwort,? (FRAGEZEICHEN),pop,0.589,0.508,9,-14.302,1,0.0333,0.0226,0.00195,0.118,0.786,144.184
+TRBENTF128F427FF9E,Steve Tyrell,Georgia On My Mind,This Guy's In Love,jazz,0.497,0.361,7,-7.834,1,0.0293,0.819,1.07e-05,0.23,0.235,69.695
+TRBEOEB128F92ECAD6,Stendeck,Waiting For A New Day,Can You Hear My Call?,electronic,0.629,0.754,10,-12.091,1,0.0372,0.381,0.896,0.112,0.152,95.049
+TRBEORV12903CC596F,Mindless Faith,Canaan (Ritual Mix),Momentum,electronic,0.635,0.84,7,-8.986,1,0.0636,0.105,0.754,0.275,0.353,108.009
+TRBEPOT128F931E496,Choir of Young Believers,She Walks,This Is For The White In Your Eyes,alternative,0.586,0.499,2,-7.837,1,0.0281,0.307,0.0166,0.0871,0.434,125.031
+TRBETKP128F92E733A,Railroad Earth,Goat,The Good Life,country,0.485,0.822,0,-5.62,1,0.037,0.376,0.00143,0.109,0.641,159.938
+TRBEUCT128E0794C1C,Sonic Youth,Kool Thing,Goo,alternative,0.262,0.82,7,-11.621,1,0.0428,0.0103,0.0914,0.101,0.254,155.197
+TRBEWEL128F424C3A6,Duke Ellington Quartet,The Hawk Talks,Duke's Big Four,jazz,0.49,0.376,2,-19.529,1,0.0439,0.572,0.348,0.134,0.613,115.273
+TRBEWHF128F423EE58,Brandtson,Mercy Medical,Send Us a Signal,indie,0.615,0.7,3,-6.651,0,0.0235,0.0597,0.00126,0.0899,0.101,102.986
+TRBEXSJ128F1456A7E,Res,How I Do,How I Do,soul,0.671,0.823,0,-5.299,0,0.217,0.0405,8.09e-05,0.163,0.817,67.212
+TRBEYCP128F1475580,Larry Groce/Disneyland Children's Sing-Along Chorus,Here We Go Loopty Loo,Mickey's Top 40,dance,0.867,0.782,5,-6.613,0,0.0875,0.271,0.0,0.0637,0.9,123.165
+TRBFAWR128F42A4FDA,Alcazar,This Is The World We Live In,This Is The World We Live In,dance,0.715,0.937,0,-0.182,1,0.0529,0.0256,0.0,0.23,0.943,125.003
+TRBFBQH128F4226E69,Jeff Mills,Opening,Blue Potential - Live with Montpelier Philharmonic Orchestra,electronic,0.0784,0.127,1,-14.642,1,0.0405,0.641,0.89,0.385,0.0289,171.733
+TRBFCBO128F9345A16,DoomSword,Onward Into Battle,Resound the Horn,metal,0.234,0.95,1,-4.317,1,0.0704,0.000324,0.694,0.109,0.394,85.964
+TRBFCOM128F4277B06,The Delfonics,Break Your Promise,Live on Tour,soul,0.432,0.36,6,-13.493,1,0.0415,0.354,0.0,0.34,0.458,78.768
+TRBFCZZ12903D060A0,Delerium,Eternal Odyssey,Chimera,ambient,0.538,0.94,10,-6.731,0,0.0554,0.0775,0.904,0.42,0.682,163.985
+TRBFDLL128F149C3EF,The Earlies,Burn The Liars,The Enemy Chorus,rock,0.753,0.822,8,-5.582,1,0.0371,0.174,1.2e-05,0.175,0.086,99.998
+TRBFEAR128F4267BE6,iio,At The End (Frank Bailey 2005 Remix),At The End,dance,0.659,0.853,1,-7.971,1,0.0395,0.000211,0.443,0.103,0.814,125.999
+TRBFFQH128F426F01F,Pete Seeger,Draft Dodger Rag,Pete Seeger: A Link In The Chain,folk,0.519,0.414,7,-12.545,1,0.275,0.86,0.0,0.432,0.901,190.245
+TRBFGHR128F92F7BE2,Suns Of Arqa,Quetzalcoatl,Hallucinasia,electronic,0.578,0.362,10,-15.34,0,0.0566,0.536,0.844,0.242,0.219,164.528
+TRBFICZ128F930F6F9,The Hold Steady,Stuck Between Stations,A Positive Rage,rock,0.208,0.944,2,-3.736,1,0.184,0.501,1.18e-06,0.335,0.608,75.214
+TRBFLZY128F428FF2F,Dave Douglas,Witness,Witness,jazz,0.325,0.438,9,-11.091,1,0.0449,0.52,0.13,0.266,0.0461,119.413
+TRBFOTY128F92E1ED3,Will Young,Very Kind,Fridays Child,pop,0.77,0.288,9,-10.32,0,0.0526,0.112,0.0,0.164,0.44,79.962
+TRBFQAY128E078F6C1,Jan Hammer,Tubbs And Valerie,Escape From Television,instrumental,0.609,0.421,2,-13.974,0,0.0311,0.513,0.0193,0.108,0.36,85.025
+TRBFSCH128F429F5ED,Samantha Fox,He's Got Sex,Touch Me,pop,0.704,0.797,1,-6.682,0,0.0492,0.0045,0.0154,0.123,0.891,135.815
+TRBFTBY128F426663E,Montgomery Gentry,She Couldn't Change Me,Carrying On,country,0.67,0.823,5,-10.592,1,0.033,0.00436,0.000192,0.318,0.787,117.44
+TRBFTWW12903CC792F,Easton Corbin,Leavin' A Lonely Town,Easton Corbin,country,0.678,0.472,5,-10.981,1,0.0271,0.317,4.14e-06,0.129,0.321,123.97
+TRBFVJZ128F429EF63,The Receiving End Of Sirens,Swallow People Whole,The Earth Sings Mi Fa Mi,alternative,0.36,0.807,4,-7.373,0,0.051,0.00168,0.0193,0.146,0.345,171.949

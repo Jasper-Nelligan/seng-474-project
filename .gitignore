@@ -1,0 +1,5 @@
+/__pycache__
+*.zip
+*.h5
+/lastfm_test
+msd.db
