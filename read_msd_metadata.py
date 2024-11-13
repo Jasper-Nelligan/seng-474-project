@@ -1,3 +1,6 @@
+"""
+This script gives an example of how to read metadata from an HDF5 file in the MSD.
+"""
 import tables
 import hdf5_getters
 
