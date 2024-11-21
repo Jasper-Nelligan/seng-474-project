@@ -37,6 +37,7 @@ def get_spotify_features(artist, track, release):
         return None
 
 if __name__ == "__main__":
+    print("Starting script...")
     # Initialize the Spotify API
     get_spotify_access_token(client_id, client_secret)
 
@@ -72,8 +73,15 @@ if __name__ == "__main__":
     # Parse the last.fm data
     songs_added_to_db = num_entries
     max_songs = 10000
+    spotify_error_occured = False
     for root, _, files in os.walk("lastfm_test"):
+        if spotify_error_occured:
+            print("Spotify error occured, skipping remaining songs")
+            break
         for file in files:
+            if spotify_error_occured:
+                print("Spotify error occured, skipping remaining songs")
+                break
             if songs_added_to_db >= max_songs:
                 break
 
@@ -116,6 +124,7 @@ if __name__ == "__main__":
                                 continue
                         except Exception as e:
                             print('Error getting Spotify features: ', e)
+                            spotify_error_occured = True
                             break
                         
 
