@@ -1,5 +1,4 @@
 import json
-import sys
 from spotify_api import get_spotify_access_token, get_track_features, get_track_id
 import os
 from dotenv import load_dotenv
@@ -128,17 +127,6 @@ if __name__ == "__main__":
                         songs_added_to_db += 1
                         print(songs_added_to_db, "songs added to the database")
                         conn.commit()
-
-    # Fetch entries from the combined_data table
-    cursor.execute('SELECT * FROM combined_data LIMIT 10')
-    entries = cursor.fetchall()
-    print("First 10 entries: ", entries)
-
-    # Count the number of entries in the combined_data table
-    # cursor.execute('SELECT COUNT(*) FROM combined_data')
-    # count = cursor.fetchone()[0]
-
-    # print(count)
 
     # Close the connection
     conn.close()

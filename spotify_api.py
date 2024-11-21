@@ -23,7 +23,6 @@ def get_spotify_access_token(client_id, client_secret):
     access_token = response_data['access_token']
     token_expires_at = response_data['expires_in'] + int(time.time())
 
-    print('Access Token:', access_token)
     return access_token
 
 def get_track_id(artist, track, album):
