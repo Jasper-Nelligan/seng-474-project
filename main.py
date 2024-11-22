@@ -72,9 +72,9 @@ if __name__ == "__main__":
 
     # Parse the last.fm data
     songs_added_to_db = num_entries
-    max_songs = 20000
+    max_songs = 30000
     spotify_error_occured = False
-    for root, _, files in os.walk("lastfm_test"):
+    for root, _, files in os.walk("lastfm_train"):
         if spotify_error_occured:
             print("Spotify error occured, skipping remaining songs")
             break
