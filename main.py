@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     # Parse the last.fm data
     songs_added_to_db = num_entries
-    max_songs = 10000
+    max_songs = 20000
     spotify_error_occured = False
     for root, _, files in os.walk("lastfm_test"):
         if spotify_error_occured:
@@ -121,18 +121,35 @@ if __name__ == "__main__":
                             # Get Spotify features for the song
                             spotify_features = get_spotify_features(artist, title, release)
                             if not spotify_features:
+                                cursor.execute('''
+                                INSERT OR REPLACE INTO combined_data (track_id, artist, title, release, genre, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo)
+                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                ''', (song_id, artist, title, release, top_tag, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1))
+                                songs_added_to_db += 1
+                                print(songs_added_to_db, "songs added to the database")
+                                conn.commit()
                                 continue
                         except Exception as e:
                             print('Error getting Spotify features: ', e)
                             spotify_error_occured = True
                             break
-                        
 
                         # Insert the new entry into the combined_data table
                         cursor.execute('''
                         INSERT OR REPLACE INTO combined_data (track_id, artist, title, release, genre, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo)
                         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                        ''', (song_id, artist, title, release, top_tag, spotify_features['danceability'], spotify_features['energy'], spotify_features['key'], spotify_features['loudness'], spotify_features['mode'], spotify_features['speechiness'], spotify_features['acousticness'], spotify_features['instrumentalness'], spotify_features['liveness'], spotify_features['valence'], spotify_features['tempo']))
+                        ''', (song_id, artist, title, release, top_tag,
+                              spotify_features.get('danceability', None),
+                              spotify_features.get('energy', None),
+                              spotify_features.get('key', None),
+                              spotify_features.get('loudness', None),
+                              spotify_features.get('mode', None),
+                              spotify_features.get('speechiness', None),
+                              spotify_features.get('acousticness', None),
+                              spotify_features.get('instrumentalness', None),
+                              spotify_features.get('liveness', None),
+                              spotify_features.get('valence', None),
+                              spotify_features.get('tempo', None)))
                         songs_added_to_db += 1
                         print(songs_added_to_db, "songs added to the database")
                         conn.commit()
