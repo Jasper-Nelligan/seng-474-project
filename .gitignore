@@ -3,3 +3,4 @@
 *.h5
 /lastfm_test
 msd.db
+/lastfm_train
