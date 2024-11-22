@@ -33,12 +33,19 @@ def get_track_id(artist, track, album):
     }
 
     response = requests.get(url, headers=headers)
-    response_data = response.json()
 
-    items = response_data['tracks']['items']
-    if items:
-        return items[0]['id']
-    else:
+    if response.status_code == 429:
+        raise Exception("Rate limited by Spotify API")
+
+    try:
+        print("The response was: ", response)
+        response_data = response.json()
+        items = response_data['tracks']['items']
+        if items:
+            return items[0]['id']
+        else:
+            return None
+    except ValueError:
         return None
 
 def get_track_features(track_id):
@@ -48,4 +55,8 @@ def get_track_features(track_id):
     }
 
     response = requests.get(url, headers=headers)
-    return response.json()
+    try:
+        return response.json()
+    except ValueError:
+        print("Error: Response is not in JSON format")
+        return None
