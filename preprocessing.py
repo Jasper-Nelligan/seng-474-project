@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 # Loading data
 songs = pd.read_csv('songs.csv', encoding='latin1')
 
-# Drop invalid entries
+# Drop spotify_id and invalid entries
+songs = songs.drop('spotify_id', axis=1)
 songs = songs[songs['danceability'] != -1]
-#songs = songs.dropna()
 
 # Balance dataset by downsampling
 min_genre = songs['genre'].value_counts().min()
