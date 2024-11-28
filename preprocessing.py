@@ -1,5 +1,9 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+
 
 # Loading data
 songs = pd.read_csv('songs.csv', encoding='latin1')
@@ -15,6 +19,10 @@ songs = songs.groupby('genre').sample(n=min_genre, random_state=42)
 # Get genre distribution
 print(songs['genre'].value_counts())
 
-# Show numerical distributions
-songs.hist(bins=50, figsize=(20, 8))
-plt.show()
+# Normalize features
+min_max_scaler = MinMaxScaler()
+songs[['tempo', 'loudness', 'speechiness']] = min_max_scaler.fit_transform(songs[['tempo', 'loudness', 'speechiness']])
+
+# Split data into testing and training sets
+train_set, test_set = train_test_split(songs, test_size=0.2, random_state=42)
+print(len(train_set), len(test_set))
