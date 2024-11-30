@@ -18,6 +18,9 @@ def preprocess_data(file_path):
     # Get genre distribution
     print(songs['genre'].value_counts())
 
+    # Get features
+    print(songs.columns.tolist())
+
     # Normalize features
     min_max_scaler = MinMaxScaler()
     songs[['tempo', 'loudness', 'speechiness']] = min_max_scaler.fit_transform(songs[['tempo', 'loudness', 'speechiness']])
