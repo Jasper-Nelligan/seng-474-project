@@ -1,13 +1,12 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
 import preprocessing
 import seaborn as sns
 
 # Numerical distribution
 def featureDist(songs):
     songs.hist(bins=50, figsize=(20, 8))
-    plt.title('Feature Distribution')
+    plt.suptitle('Distribution of Numerical Features', fontsize=16)
 
 # Genre distribution
 def genreDist(songs):
@@ -51,12 +50,12 @@ def main():
     songs_preprocessed = preprocessing.preprocess_data('songs.csv')[0]
 
     # Show tables
-    #numericalDist(songs)
+    featureDist(songs)
     #genreDist(songs)
     #featureDist(songs_preprocessed)
     #genreDist(songs_preprocessed)
     #featureCorrelation(songs_preprocessed)
-    genreFeatureAvgs(songs_preprocessed)
+    #genreFeatureAvgs(songs_preprocessed)
 
     plt.show()
 
