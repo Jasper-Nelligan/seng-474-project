@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import preprocessing
+import seaborn as sns
 
 # Numerical distribution
 def featureDist(songs):
